@@ -9,10 +9,20 @@ export consumer_key='*YOUR ACCESS TOKEN*'
 export consumer_secret='*YOUR ACCESS TOKEN*'
 
 export access_token_secret='*YOUR ACCESS TOKEN*'
-## To run the code
-python twitter_streaming.py > twitter_data.txt
+
 ## To search with a certain hashtag
 Modify the following line(s) of code:
 
 stream.filter(track=['**insert your hashtag(s) here**'])
+
+## Using the venv_SC folder
+The folder is a virtual environment containing all the dependencies 
+required to execute the file. It can be downloaded and activated by
+typing the following in the terminal:
+
+source venv_SC/bin/activate
+
+## To run the code
+python twitter_streaming.py > twitter_data.txt
+
 
